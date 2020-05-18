@@ -1,4 +1,4 @@
-package org.jit.one;
+package org.jit.server;
 
 import java.io.*;
 public class ReadTestquestion{

@@ -1,4 +1,4 @@
-package org.jit.one;
+package org.jit.client;
 
 import java.awt.*;
 import java.awt.event.*;

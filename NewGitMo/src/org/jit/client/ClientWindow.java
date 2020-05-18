@@ -1,9 +1,9 @@
-package org.jit.one;
+package org.jit.client;
 
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-import java.net.*;
+
 public class ClientWindow extends JFrame{
     ClientLogin clientLogin;
     GetTestFile getTestFile;
