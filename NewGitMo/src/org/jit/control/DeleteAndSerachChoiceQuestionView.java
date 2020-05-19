@@ -1,6 +1,5 @@
-package org.jit.delete;
+package org.jit.control;
 
-import java.awt.Checkbox;
 import java.awt.CheckboxGroup;
 import javax.swing.*;
 public class DeleteAndSerachChoiceQuestionView extends JPanel{

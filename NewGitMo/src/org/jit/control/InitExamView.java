@@ -1,4 +1,4 @@
-package org.jit.init;
+package org.jit.control;
 
 import java.io.File;
 import java.io.FileNotFoundException;

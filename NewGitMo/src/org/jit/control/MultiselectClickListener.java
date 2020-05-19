@@ -1,4 +1,4 @@
-package org.jit.delete;
+package org.jit.control;
 
 import java.awt.event.*;
 

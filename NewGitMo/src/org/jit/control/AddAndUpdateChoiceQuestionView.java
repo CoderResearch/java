@@ -1,4 +1,4 @@
-package org.jit.add;
+package org.jit.control;
 
 import javax.swing.*;
 

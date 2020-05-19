@@ -1,8 +1,4 @@
-package org.jit.init;
-
-import org.jit.delete.PreQuery;
-import org.jit.control.QuestionModel;
-import org.jit.control.Questions;
+package org.jit.control;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

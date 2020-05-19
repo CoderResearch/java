@@ -1,6 +1,4 @@
-package org.jit.init;
-import org.jit.control.ExamWorkView;
-import org.jit.control.QuestionModel;
+package org.jit.control;
 
 import java.awt.event.*;
 import java.io.File;

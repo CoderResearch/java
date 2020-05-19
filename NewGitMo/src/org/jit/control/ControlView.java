@@ -1,7 +1,5 @@
 package org.jit.control;
 
-import org.jit.add.TimeView;
-
 import java.awt.Font;
 
 import javax.swing.*;

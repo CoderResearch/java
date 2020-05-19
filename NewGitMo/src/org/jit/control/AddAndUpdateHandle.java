@@ -1,6 +1,4 @@
-package org.jit.add;
-
-import org.jit.delete.PreQuery;
+package org.jit.control;
 
 import java.sql.*;
 

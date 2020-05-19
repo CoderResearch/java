@@ -1,4 +1,4 @@
-package org.jit.add;
+package org.jit.control;
 
 import org.jit.control.ControlView;
 import org.jit.control.QuestionModel;

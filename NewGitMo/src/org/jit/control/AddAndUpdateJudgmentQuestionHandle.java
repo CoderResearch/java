@@ -1,6 +1,4 @@
-package org.jit.add;
-
-import org.jit.delete.PreQuery;
+package org.jit.control;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
