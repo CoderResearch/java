@@ -4,6 +4,7 @@ import java.awt.Color;
 import java.awt.event.*;
 
 import javax.swing.JOptionPane;
+//QuestionHandle对应上图左边最大矩形的视图的数据处理
 public class QuestionHandle implements ActionListener {
 
     QuestionView mView;

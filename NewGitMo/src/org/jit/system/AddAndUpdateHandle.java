@@ -8,6 +8,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+//实现选择题管理类AddAndUpdateHandle类，它负责对AddAndUpdateChoiceQuestionView类的数据处理
 public class AddAndUpdateHandle implements ActionListener{
     //所要监听的视图
     AddAndUpdateChoiceQuestionView mView;

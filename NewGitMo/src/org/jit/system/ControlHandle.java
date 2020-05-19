@@ -7,6 +7,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
+//ControlHandle对应上图右下角倒计时和交卷视图的数据处理
 public class ControlHandle implements ActionListener{
 
     ControlView mControlView;

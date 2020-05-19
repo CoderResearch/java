@@ -1,6 +1,8 @@
 package org.jit.system;
 
 import javax.swing.*;
+
+//选择题管理视图类AddAndUpdateChoiceQuestionView
 public class AddAndUpdateChoiceQuestionView extends JPanel {
     JTextField mQuestionID;     //输入试题编号
     JTextField mApplicable;     //适用工程

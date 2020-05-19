@@ -6,6 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.*;
+//QuestionNumberHandle类对应上图右上角试题选择区域的数据处理
 public class QuestionNumberHandle implements ActionListener{
 
     QuestionNumberView mView;

@@ -4,6 +4,7 @@ import java.awt.Color;
 import java.awt.Font;
 
 import javax.swing.*;
+//倒计时显示类,这个类要处理耗时任务所以要在新线程中执行
 public class TimeView extends JPanel{
     private JFrame frame;
     private JLabel hourLabel;
