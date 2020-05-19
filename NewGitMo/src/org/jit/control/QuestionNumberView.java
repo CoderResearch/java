@@ -1,14 +1,9 @@
-package org.jit.system;
-import java.awt.Color;
-import java.awt.Dimension;
+package org.jit.control;
 import java.awt.FlowLayout;
 import java.awt.Font;
-import java.awt.GridLayout;
 
 import javax.swing.JButton;
-import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.JScrollPane;
 
 public class QuestionNumberView extends JPanel{
 

@@ -1,5 +1,4 @@
-package org.jit.system;
-import java.awt.*;
+package org.jit.add;
 import javax.swing.*;
 //需要一个具有表格的Dialog用来展示刚刚获取到的数据
 public class DialogOne extends JDialog {

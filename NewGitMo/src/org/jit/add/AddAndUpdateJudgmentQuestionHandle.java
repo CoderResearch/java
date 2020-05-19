@@ -1,6 +1,7 @@
-package org.jit.system;
+package org.jit.add;
 
-import java.awt.*;
+import org.jit.delete.PreQuery;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.Connection;

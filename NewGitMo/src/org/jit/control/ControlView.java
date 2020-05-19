@@ -1,4 +1,6 @@
-package org.jit.system;
+package org.jit.control;
+
+import org.jit.add.TimeView;
 
 import java.awt.Font;
 

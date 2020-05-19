@@ -1,4 +1,8 @@
-package org.jit.system;
+package org.jit.add;
+
+import org.jit.control.ControlView;
+import org.jit.control.QuestionModel;
+import org.jit.control.Questions;
 
 import java.awt.Color;
 import java.awt.Font;

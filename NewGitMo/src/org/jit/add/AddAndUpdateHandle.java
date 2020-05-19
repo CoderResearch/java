@@ -1,10 +1,11 @@
-package org.jit.system;
+package org.jit.add;
+
+import org.jit.delete.PreQuery;
 
 import java.sql.*;
 
 import javax.swing.JOptionPane;
 
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 

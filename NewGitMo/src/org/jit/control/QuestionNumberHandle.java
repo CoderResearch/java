@@ -1,6 +1,5 @@
-package org.jit.system;
+package org.jit.control;
 
-import java.awt.Color;
 import java.awt.Image;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

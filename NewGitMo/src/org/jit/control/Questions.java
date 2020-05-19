@@ -1,4 +1,4 @@
-package org.jit.system;
+package org.jit.control;
 
 public class Questions {
     boolean isChoice;//是否为单选题

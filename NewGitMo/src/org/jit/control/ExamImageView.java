@@ -1,4 +1,4 @@
-package org.jit.system;
+package org.jit.control;
 
 import java.awt.*;
 import java.awt.event.*;

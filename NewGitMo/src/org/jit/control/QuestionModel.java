@@ -1,4 +1,4 @@
-package org.jit.system;
+package org.jit.control;
 
 //试题肯定不止一道因此就需要一个试题数组来存放所有试题，
 // 因此我们还需要一个模型来管理所有试题

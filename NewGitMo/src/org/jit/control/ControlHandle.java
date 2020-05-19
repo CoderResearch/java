@@ -1,12 +1,13 @@
-package org.jit.system;
+package org.jit.control;
+
+import org.jit.add.TimeView;
 
 import java.awt.Image;
 import java.awt.event.*;
 
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
-import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
+
 //ControlHandle对应上图右下角倒计时和交卷视图的数据处理
 public class ControlHandle implements ActionListener{
 

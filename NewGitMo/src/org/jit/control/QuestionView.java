@@ -1,6 +1,5 @@
-package org.jit.system;
+package org.jit.control;
 
-import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Font;
 
