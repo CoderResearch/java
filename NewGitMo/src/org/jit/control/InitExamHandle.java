@@ -12,8 +12,8 @@ public class InitExamHandle implements ActionListener{
 
     InitExamView mView;
     String examType;
-    String filePathQuestionAmount="./试题管理目录/试题数量.txt";
-    String filePathExamTimes="./试题管理目录/考试时间(单位为分钟).txt";
+    String filePathQuestionAmount="D:/GitProject/NewGitMo/src/org/jit/control/试题数量.txt";
+    String filePathExamTimes="D:/GitProject/NewGitMo/src/org/jit/control/考试时间(单位为分钟).txt";
     int[] mExamTimes;
     int[] mQuestionAmount;
     Scanner scanner;

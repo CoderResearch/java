@@ -14,9 +14,9 @@ public class InitExamView extends JPanel{
 
     Scanner scanner;
     //适用工程文本路径
-    String filePathApplicableType="./试题管理目录/适用工程.txt";
+    String filePathApplicableType="D:/GitProject/NewGitMo/src/org/jit/control/适用工程.txt";
     //试题数量文本路径
-    String filePathQuestionAmount="./试题管理目录/试题数量.txt";
+    String filePathQuestionAmount="D:/GitProject/NewGitMo/src/org/jit/control/试题数量.txt";
     String examType=null;
     InitExamHandle mHandle;
     public InitExamView()
