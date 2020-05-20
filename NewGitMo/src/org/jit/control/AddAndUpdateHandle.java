@@ -16,7 +16,7 @@ public class AddAndUpdateHandle implements ActionListener{
     PreparedStatement ppStatement;
     PreQuery query;
     String sql="";
-    String url="jdbc:derby:Examination;create=true";
+    String url="jdbc:sqlserver://192.168.220.1:1433;databaseName=MyDB_3;user=sa;password=123";
 
     //写入参数
     String OperateType;//操作类型
