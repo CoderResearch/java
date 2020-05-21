@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.Random;
 
 import javax.swing.JOptionPane;
-//初始化试题模型，这里需要实现随机抽题，方法是用链表来模拟随机抽题
+
 public class InitQuestionModel {
 
     QuestionModel mQuestionModel;

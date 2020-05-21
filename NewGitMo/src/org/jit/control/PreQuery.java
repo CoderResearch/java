@@ -5,9 +5,10 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
+import java.sql.Statement;
 
-//需要一个工具类PreQuery类，它负责从数据库中获取字段值和我们想要查询的数据，
-// 我们可以通过他来查看数据是否被插入到表中。
+import javax.swing.JOptionPane;
+
 public class PreQuery {
     String databaseName;
     String SQL;

@@ -4,6 +4,13 @@
       <root url="jar://E:/18数据科学与大数据技术/面向对象程序设计/Java课程设计/SQLserver/sqljdbc4.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../c_path/sqljdbc_6.0/chs/samples/adaptive" />
+      <root url="file://$PROJECT_DIR$/../c_path/sqljdbc_6.0/chs/samples/alwaysencrypted" />
+      <root url="file://$PROJECT_DIR$/../c_path/sqljdbc_6.0/chs/samples/connections" />
+      <root url="file://$PROJECT_DIR$/../c_path/sqljdbc_6.0/chs/samples/datatypes" />
+      <root url="file://$PROJECT_DIR$/../c_path/sqljdbc_6.0/chs/samples/resultsets" />
+      <root url="file://$PROJECT_DIR$/../c_path/sqljdbc_6.0/chs/samples/sparse" />
+    </SOURCES>
   </library>
 </component>

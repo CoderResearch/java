@@ -1,5 +1,6 @@
 package org.jit.control;
 
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.Connection;
@@ -16,7 +17,7 @@ public class AddAndUpdateJudgmentQuestionHandle implements ActionListener{
     PreparedStatement ppStatement;
     PreQuery query;
     String sql="";
-    String url="jdbc:sqlserver://192.168.220.1:1433;databaseName=MyDB_3;user=sa;password=123";
+    String url="jdbc:derby:Examination;create=true";
 
     //写入参数
     String OperateType;

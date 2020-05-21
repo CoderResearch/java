@@ -4,10 +4,10 @@ import java.sql.*;
 
 import javax.swing.JOptionPane;
 
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-//实现选择题管理类AddAndUpdateHandle类，它负责对AddAndUpdateChoiceQuestionView类的数据处理
 public class AddAndUpdateHandle implements ActionListener{
     //所要监听的视图
     AddAndUpdateChoiceQuestionView mView;
@@ -16,7 +16,7 @@ public class AddAndUpdateHandle implements ActionListener{
     PreparedStatement ppStatement;
     PreQuery query;
     String sql="";
-    String url="jdbc:sqlserver://192.168.220.1:1433;databaseName=MyDB_3;user=sa;password=123";
+    String url="jdbc:derby:Examination;create=true";
 
     //写入参数
     String OperateType;//操作类型
