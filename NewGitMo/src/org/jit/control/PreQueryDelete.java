@@ -15,7 +15,7 @@ public class PreQueryDelete {
     public PreQueryDelete(){
         try
         {
-            Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
+            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 
         }catch(Exception e)
         {
@@ -34,7 +34,7 @@ public class PreQueryDelete {
     {
 
         try{
-            String url="jdbc:derby:"+databaseName+" ;create=true";
+            String url="jdbc:sqlserver://localhost:1433;databaseName=examination;user=sa;password=123";
             con=DriverManager.getConnection(url);
             preSql=con.prepareStatement(SQL);
             preSql.executeUpdate();

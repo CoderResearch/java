@@ -24,7 +24,7 @@ public class DeleteAndSearchChoiceHandle implements ActionListener{
     String complexity;
     String adaptEngineering;
     int isSucceed;
-    String url="jdbc:derby:Examination;create=true";
+    String url="jdbc:sqlserver://localhost:1433;databaseName=examination;user=sa;password=123";
     String SQL="";
     String[] ziduan;//字段值
     String[][] record;//记录值

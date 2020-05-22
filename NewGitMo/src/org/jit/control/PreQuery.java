@@ -20,7 +20,7 @@ public class PreQuery {
     public PreQuery(){
         try
         {
-            Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
+            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 
         }catch(Exception e)
         {
@@ -47,7 +47,7 @@ public class PreQuery {
     {
 
         try{
-            String url="jdbc:derby:"+databaseName+" ;create=true";
+            String url="jdbc:sqlserver://localhost:1433;databaseName=examination;user=sa;password=123";
             con=DriverManager.getConnection(url);
             //设置游标可以随意跳转，这样可以实现从任意一行读取数据
             preSql=con.prepareStatement(SQL,ResultSet.TYPE_SCROLL_SENSITIVE,ResultSet.CONCUR_READ_ONLY);

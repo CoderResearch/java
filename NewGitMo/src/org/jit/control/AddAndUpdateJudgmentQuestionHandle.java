@@ -17,7 +17,7 @@ public class AddAndUpdateJudgmentQuestionHandle implements ActionListener{
     PreparedStatement ppStatement;
     PreQuery query;
     String sql="";
-    String url="jdbc:derby:Examination;create=true";
+    String url="jdbc:sqlserver://localhost:1433;databaseName=examination;user=sa;password=123";
 
     //写入参数
     String OperateType;
