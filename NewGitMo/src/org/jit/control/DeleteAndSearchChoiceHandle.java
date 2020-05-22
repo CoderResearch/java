@@ -43,7 +43,7 @@ public class DeleteAndSearchChoiceHandle implements ActionListener{
     }
     //重绘表格
     private void RePaintTable(String SQL) {
-        query.setDatabaseName("Examination");
+        query.setDatabaseName("examination");
         query.setSQL(SQL);
         query.startQuery();
         ziduan=query.getColumnName();
