@@ -9,7 +9,7 @@ import javax.swing.JLabel;
 
 public class ShowImageFrame extends JFrame{
     String imageName;
-    String imagePath="./试题图片/";
+    String imagePath="D:/GitProject/NewGitMo试题图片/";
     Image mImage;
     Toolkit mToolkit;
     JLabel showImageJLabel;
