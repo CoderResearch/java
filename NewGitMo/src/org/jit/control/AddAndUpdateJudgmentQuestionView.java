@@ -16,6 +16,7 @@ public class AddAndUpdateJudgmentQuestionView extends JPanel{
 
     AddAndUpdateJudgmentQuestionView()
     {
+
         setLayout(null);
         setVisible(true);
         submitButton=new JButton("提交");
@@ -24,7 +25,6 @@ public class AddAndUpdateJudgmentQuestionView extends JPanel{
         mContext=new JTextArea(8,40);
         JScrollPane js=new JScrollPane(mContext);
         mPictureName=new JTextField(10);
-
         JLabel mIdLabel =new JLabel("试题号：(必填且不允许重复)");
         add(mIdLabel);
         add(mQuestionID);

@@ -7,7 +7,7 @@ public class LogInView extends JPanel implements ActionListener{
     JPasswordField mPasswordField;
     JLabel mLabel;
     JButton mSubmitBN;
-    private String passWord="00123456";
+    private String passWord="123456";
     public void InitView()
     {
         setVisible(true);
